@@ -1,0 +1,13 @@
+@import '../../assets/styles/common.scss';
+
+.Navbar {
+    display: flex;
+    justify-content: center;
+    background-color: $background-color;
+}
+
+a {
+    color: $link-color;
+    font-size: $font-big-size;
+    text-decoration: none;
+}

@@ -1,0 +1,12 @@
+@import 'colors';
+
+@mixin box-shadow($x: 0, $y: 1px) {
+    box-shadow: var(--box-shadow, $x $y 1px 0 rgba(0, 0, 0, 0.08));
+}
+
+@mixin list-block {
+    li {
+        display: inline-block;
+        color: secondary-color;
+    }
+}

@@ -1,0 +1,22 @@
+@import '../../assets/styles/common.scss';
+
+.exerciseToBe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
+    background-color: $button-color;
+    color: $link-color;
+    border-radius: 4px;
+}
+
+.showSentenceTimed {
+    margin-top: 10px;
+
+    font-size: 48px;
+}
