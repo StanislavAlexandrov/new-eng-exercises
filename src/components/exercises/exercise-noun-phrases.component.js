@@ -1,25 +1,22 @@
 import React from 'react';
 import './exercise-disappearing.component.scss';
-import '../../assets/img/logo.svg';
-
-const myLinks = ['../../assets/img/logo.svg'];
-
-const pictureShown = document.querySelector('.pictureShown');
+import LOGO from '../../assets/img/logo.svg';
+import { useState } from 'react';
 let counter = 0;
-
-function nextPicClick() {
-    console.log(counter);
-    if (counter < myLinks.length) {
-        let pictureLink = myLinks[counter];
-        pictureShown.src = pictureLink;
-
-        counter++;
-    } else {
-        counter = 0;
-    }
-}
+const myLinks = [LOGO];
 
 function ExerciseNounPhrases() {
+    const [picLink, setPicLink] = useState('');
+
+    function nextPicClick() {
+        if (counter < myLinks.length) {
+            setPicLink(myLinks[counter]);
+            counter++;
+        } else {
+            counter = 0;
+        }
+    }
+
     return (
         <>
             <button
@@ -31,7 +28,10 @@ function ExerciseNounPhrases() {
             </button>
 
             <div>
-                <img className="pictureShown img-fluid mx-auto d-block rounded"></img>
+                <img
+                    src={picLink}
+                    className="pictureShown img-fluid mx-auto d-block rounded"
+                ></img>
             </div>
         </>
     );

@@ -21,7 +21,7 @@ function ExerciseToBeNew() {
         }
         setCount(0);
         intervalId = setInterval(() => {
-            setCount(i => {
+            setCount((i) => {
                 return ++i;
             });
         }, 1800);
@@ -33,7 +33,7 @@ function ExerciseToBeNew() {
                 <button onClick={restartTimer}>Start</button>
             </div>
 
-            <div class="showSentenceTimed">
+            <div className="showSentenceTimed">
                 {count === 100 ? '...' : questionListToBe[count]}
             </div>
         </div>
