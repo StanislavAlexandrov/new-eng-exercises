@@ -1,0 +1,26 @@
+const disappearingSentences = [
+    'on the one hand, on the other hand',
+    'however',
+    'despite',
+    'in my opinion',
+    'for instance',
+    'I believe that...',
+    'I would argue that...',
+    'By *doing something* we *achieve something*',
+    'There are two reasons why it could be argued that...',
+    'A good example would be...',
+    'While I agree that... I believe that...',
+    'I think every effort should be made to...',
+    'If *someone did something*, there would be *something else*',
+    '*some event* has been linked to *some fact*',
+    'this can have effects ranging from... to...',
+    'as + *changing situation*, + *something is changing, too*',
+    'one example of that would be...',
+    'at the same time',
+    'we should... more/less',
+    'this will result in... ',
+    'for a variety of reasons, it would be...',
+    'in conclusion',
+];
+
+export default disappearingSentences;

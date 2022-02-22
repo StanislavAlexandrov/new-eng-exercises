@@ -11,6 +11,8 @@ import {
 import ExerciseToBe from './components/exercises/exercise-tobe.component';
 import ExerciseToBeNew from './components/exercises/exercise-tobe-new.component';
 import Navbar from './components/navbar/Navbar';
+import ExerciseDisappearing from './components/exercises/exercise-disappearing.component';
+import ExerciseNounPhrases from './components/exercises/exercise-noun-phrases.component';
 
 function App() {
     return (
@@ -25,6 +27,12 @@ function App() {
                 </Route>
                 <Route path="/speed">
                     <ExerciseToBeNew></ExerciseToBeNew>
+                </Route>
+                <Route path="/disappearing">
+                    <ExerciseDisappearing></ExerciseDisappearing>
+                </Route>
+                <Route path="/nounPhrases">
+                    <ExerciseNounPhrases></ExerciseNounPhrases>
                 </Route>
                 <Route path="/">
                     <Home />

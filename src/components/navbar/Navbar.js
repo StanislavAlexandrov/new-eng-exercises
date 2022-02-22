@@ -15,13 +15,20 @@ const Navbar = () => {
                 <div className="Nav__right">
                     <ul className="Nav__item-wrapper">
                         <li className="Nav__item">
-                            <Link to="/">Home</Link>
+                            <Link to="/">Home 🏡</Link>
                         </li>
                         <li className="Nav__item">
-                            <Link to="/about">About</Link>
+                            <Link to="/about">About 🍷</Link>
+                        </li>
+
+                        <li className="Nav__item">
+                            <Link to="/speed">Speed ⏩</Link>
                         </li>
                         <li className="Nav__item">
-                            <Link to="/speed">Speed</Link>
+                            <Link to="/disappearing">Disappear 🛸</Link>
+                        </li>
+                        <li className="Nav__item">
+                            <Link to="/nounPhrases">Noun Phrases 💬 </Link>
                         </li>
                     </ul>
                 </div>

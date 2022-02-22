@@ -1,0 +1,21 @@
+@import '../../assets/styles/common.scss';
+
+.exercise-disappearing__list {
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-size: 48px;
+
+    &__item {
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+
+        opacity: 0;
+        &:hover {
+            opacity: 100;
+        }
+    }
+}

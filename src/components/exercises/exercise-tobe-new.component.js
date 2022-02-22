@@ -1,24 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './exercise-tobe.component.scss';
+import questionListToBe from '../../data/questionlist-data';
 
-const questionList = [
-    '1. Who ... you?',
-    '2. What ... your name?',
-    '3. Where ... you from?',
-    '4. How old ... you?',
-    '5. I ... Maria.',
-    '6. I ... 20.',
-    '7. I ... a consultant.',
-    '8. They ... at work.',
-    '9. \n I \n ... \n f \n i \n n \n e \n .',
-    '10. Where ... your parents?',
-];
 let intervalId;
 
 function ExerciseToBeNew() {
     let [count, setCount] = useState(100);
 
-    if (count === questionList.length) {
+    if (count === questionListToBe.length) {
         clearInterval(intervalId);
     }
 
@@ -27,7 +16,7 @@ function ExerciseToBeNew() {
     }, []);
 
     const restartTimer = () => {
-        if (count !== 0 && count < questionList.length) {
+        if (count !== 0 && count < questionListToBe.length) {
             return;
         }
         setCount(0);
@@ -45,7 +34,7 @@ function ExerciseToBeNew() {
             </div>
 
             <div class="showSentenceTimed">
-                {count === 100 ? '' : questionList[count]}
+                {count === 100 ? '...' : questionListToBe[count]}
             </div>
         </div>
     );
