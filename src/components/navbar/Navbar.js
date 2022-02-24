@@ -30,6 +30,9 @@ const Navbar = () => {
                         <li className="Nav__item">
                             <Link to="/nounPhrases">Noun Phrases 💬 </Link>
                         </li>
+                        <li className="Nav__item">
+                            <Link to="/exerciseArticles">Articles 💬 </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

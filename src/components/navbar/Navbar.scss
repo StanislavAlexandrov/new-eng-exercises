@@ -1,9 +1,11 @@
 @import '../../assets/styles/common.scss';
 
 .Navbar {
+    background-color: $background-color;
+    min-height: fit-content;
+    min-width: fit-content;
     display: flex;
     justify-content: center;
-    background-color: $background-color;
 }
 
 a {
