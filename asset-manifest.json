@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/StanislavAlexandrov/new-eng-exercises/static/css/main.31274442.css",
-    "main.js": "/StanislavAlexandrov/new-eng-exercises/static/js/main.8c077dc3.js",
-    "static/js/377.b3fe5534.chunk.js": "/StanislavAlexandrov/new-eng-exercises/static/js/377.b3fe5534.chunk.js",
-    "static/media/logo.svg": "/StanislavAlexandrov/new-eng-exercises/static/media/logo.6f7a46c1059ee902ebbf55afa930d322.svg",
-    "index.html": "/StanislavAlexandrov/new-eng-exercises/index.html",
-    "main.31274442.css.map": "/StanislavAlexandrov/new-eng-exercises/static/css/main.31274442.css.map",
-    "main.8c077dc3.js.map": "/StanislavAlexandrov/new-eng-exercises/static/js/main.8c077dc3.js.map",
-    "377.b3fe5534.chunk.js.map": "/StanislavAlexandrov/new-eng-exercises/static/js/377.b3fe5534.chunk.js.map"
+    "main.css": "/new-eng-exercises/static/css/main.31274442.css",
+    "main.js": "/new-eng-exercises/static/js/main.81935e5d.js",
+    "static/js/377.b3fe5534.chunk.js": "/new-eng-exercises/static/js/377.b3fe5534.chunk.js",
+    "static/media/logo.svg": "/new-eng-exercises/static/media/logo.6f7a46c1059ee902ebbf55afa930d322.svg",
+    "index.html": "/new-eng-exercises/index.html",
+    "main.31274442.css.map": "/new-eng-exercises/static/css/main.31274442.css.map",
+    "main.81935e5d.js.map": "/new-eng-exercises/static/js/main.81935e5d.js.map",
+    "377.b3fe5534.chunk.js.map": "/new-eng-exercises/static/js/377.b3fe5534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31274442.css",
-    "static/js/main.8c077dc3.js"
+    "static/js/main.81935e5d.js"
   ]
 }
