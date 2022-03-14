@@ -7,6 +7,7 @@ import {
     Link,
     useRouteMatch,
     useParams,
+    HashRouter,
 } from 'react-router-dom';
 import ExerciseToBe from './components/exercises/exercise-tobe.component';
 import ExerciseToBeNew from './components/exercises/exercise-tobe-new.component';
@@ -17,7 +18,7 @@ import ExerciseArticles from './components/exercises/exercise-articles';
 
 function App() {
     return (
-        <Router>
+        <HashRouter>
             <Navbar></Navbar>
 
             {/* A <Switch> looks through its children <Route>s and
@@ -42,7 +43,7 @@ function App() {
                     <Home />
                 </Route>
             </Switch>
-        </Router>
+        </HashRouter>
     );
 }
 
