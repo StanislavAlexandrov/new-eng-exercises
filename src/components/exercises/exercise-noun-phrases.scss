@@ -1,9 +1,16 @@
 @import '../../assets/styles/common.scss';
-
-.allPictures {
+.exercise-articles {
     display: flex;
+
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     flex-direction: column;
     height: 100vh;
+    font-size: 48px;
+}
+
+.myInput {
+    margin-top: 20px;
+    font-size: 48px;
 }
