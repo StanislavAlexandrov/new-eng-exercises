@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/new-eng-exercises/static/css/main.46cbe387.css",
-    "main.js": "/new-eng-exercises/static/js/main.d96524f7.js",
+    "main.css": "/new-eng-exercises/static/css/main.080e7ad3.css",
+    "main.js": "/new-eng-exercises/static/js/main.576ce3c4.js",
     "static/js/377.b3fe5534.chunk.js": "/new-eng-exercises/static/js/377.b3fe5534.chunk.js",
-    "static/media/2TimeChampion.png": "/new-eng-exercises/static/media/2TimeChampion.cc1f6501883d50e3e7c9.png",
-    "static/media/3PieceSuit.jpg": "/new-eng-exercises/static/media/3PieceSuit.f26a337be33136be0aa5.jpg",
-    "static/media/3CarGarage.jpg": "/new-eng-exercises/static/media/3CarGarage.73ceb78710d6de39902a.jpg",
-    "static/media/3StoryHouse.jpg": "/new-eng-exercises/static/media/3StoryHouse.ef216c3c1b414343f3d3.jpg",
-    "static/media/3PieceBand.jpg": "/new-eng-exercises/static/media/3PieceBand.63c5f9e49d60634e508c.jpg",
-    "static/media/3CourseMeal.jpg": "/new-eng-exercises/static/media/3CourseMeal.c8f468610bb7c9c71653.jpg",
+    "static/media/2TimeChampion.png": "/new-eng-exercises/static/media/2TimeChampion.6260d670f6d8150ca248.png",
+    "static/media/3CarGarage.jpg": "/new-eng-exercises/static/media/3CarGarage.a484238cda4fba1dc6a2.jpg",
+    "static/media/3PieceBand.jpg": "/new-eng-exercises/static/media/3PieceBand.a5b811204c82b0e32212.jpg",
+    "static/media/3PieceSuit.jpg": "/new-eng-exercises/static/media/3PieceSuit.8d72486923d30ee7607a.jpg",
+    "static/media/3StoryHouse.jpg": "/new-eng-exercises/static/media/3StoryHouse.e4713894c563049d8db4.jpg",
+    "static/media/3CourseMeal.jpg": "/new-eng-exercises/static/media/3CourseMeal.31242495b25e5022fc74.jpg",
     "static/media/logo.svg": "/new-eng-exercises/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/new-eng-exercises/index.html",
-    "main.46cbe387.css.map": "/new-eng-exercises/static/css/main.46cbe387.css.map",
-    "main.d96524f7.js.map": "/new-eng-exercises/static/js/main.d96524f7.js.map",
+    "main.080e7ad3.css.map": "/new-eng-exercises/static/css/main.080e7ad3.css.map",
+    "main.576ce3c4.js.map": "/new-eng-exercises/static/js/main.576ce3c4.js.map",
     "377.b3fe5534.chunk.js.map": "/new-eng-exercises/static/js/377.b3fe5534.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46cbe387.css",
-    "static/js/main.d96524f7.js"
+    "static/css/main.080e7ad3.css",
+    "static/js/main.576ce3c4.js"
   ]
 }
