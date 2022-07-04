@@ -9,7 +9,7 @@ import {
     useParams,
     HashRouter,
 } from 'react-router-dom';
-import ExerciseToBe from './components/exercises/exercise-tobe.component';
+import Exercise400Questions from './components/exercises/exercise-400-questions.component';
 import ExerciseToBeNew from './components/exercises/exercise-tobe-new.component';
 import Navbar from './components/navbar/Navbar';
 import ExerciseDisappearing from './components/exercises/exercise-disappearing.component';
@@ -25,8 +25,8 @@ function App() {
             {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
             <Switch>
-                <Route path="/about">
-                    <About />
+                <Route path="/Questions400">
+                    <Exercise400Questions />
                 </Route>
                 <Route path="/speed">
                     <ExerciseToBeNew></ExerciseToBeNew>
@@ -72,8 +72,8 @@ function Home() {
     );
 }
 
-function About() {
-    return <ExerciseToBe></ExerciseToBe>;
+function Questions400() {
+    return <Exercise400Questions></Exercise400Questions>;
 }
 
 export default App;
