@@ -93,7 +93,7 @@ const Exercise400Questions = () => {
             ) : undefined}
 
             {!showPicker ? (
-                <>
+                <div className="questions">
                     <h3>
                         current step: {currentStep + 1} of {numberQuestions}
                     </h3>
@@ -121,7 +121,7 @@ const Exercise400Questions = () => {
                                 : undefined}
                         </h2>
                     </div>
-                </>
+                </div>
             ) : undefined}
         </div>
     );

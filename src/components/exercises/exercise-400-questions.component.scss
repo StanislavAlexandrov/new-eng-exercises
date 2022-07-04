@@ -1,6 +1,6 @@
 @import '../../assets/styles/common.scss';
 
-.exerciseToBe {
+.App {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,4 +29,9 @@ button {
 
 .guessInput {
     font-size: 2rem;
+}
+
+.picker {
+    display: flex;
+    flex-direction: column;
 }

@@ -5,7 +5,7 @@
 //whichever component has the picker
 //inside parent handleNumberClick function that gets a number as the arg and do sth with it
 //this component should be stateless and shouldn't know anything
-
+import '../../components/exercises/exercise-400-questions.component.scss';
 const Picker = ({ setNumberQuestions, setShowPicker, showPicker }) => {
     const handleSelectedByNumber = (selectedNumber) => {
         setNumberQuestions(selectedNumber);
@@ -16,7 +16,7 @@ const Picker = ({ setNumberQuestions, setShowPicker, showPicker }) => {
 
     //question prop inside the component; an array of numbers and map through them - DONE
     return (
-        <>
+        <div className="picker">
             <h2>How many questions?</h2>
             {questionPickerArray.map((element) => (
                 <button onClick={() => handleSelectedByNumber(element)}>
@@ -31,7 +31,7 @@ const Picker = ({ setNumberQuestions, setShowPicker, showPicker }) => {
         <button onClick={() => handleSelectedByNumber(10)}>10</button>
         <button onClick={() => handleSelectedByNumber(15)}>15</button>
         <button onClick={() => handleSelectedByNumber(20)}>20</button> */}
-        </>
+        </div>
     );
 };
 
