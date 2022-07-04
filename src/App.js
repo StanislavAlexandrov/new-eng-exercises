@@ -26,7 +26,7 @@ function App() {
               renders the first one that matches the current URL. */}
             <Switch>
                 <Route path="/Questions400">
-                    <Exercise400Questions />
+                    <Questions400 />
                 </Route>
                 <Route path="/speed">
                     <ExerciseToBeNew></ExerciseToBeNew>

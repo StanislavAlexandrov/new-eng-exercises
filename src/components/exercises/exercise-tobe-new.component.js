@@ -30,7 +30,9 @@ function ExerciseToBeNew() {
     return (
         <div className="exerciseToBe">
             <div>
-                <button onClick={restartTimer}>Start</button>
+                {count < questionListToBe.length ? null : (
+                    <button onClick={restartTimer}>Start</button>
+                )}
             </div>
 
             <div className="showSentenceTimed">
