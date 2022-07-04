@@ -34,6 +34,7 @@ function ExerciseNounPhrases() {
                     src={picLink}
                     className="pictureShown img-fluid mx-auto d-block rounded"
                     alt="noun phrase exercise"
+                    onClick={nextPicClick}
                 ></img>
                 <button
                     id="nextPicButton"
