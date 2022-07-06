@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-eng-exercises/static/css/main.080e7ad3.css",
-    "main.js": "/new-eng-exercises/static/js/main.576ce3c4.js",
+    "main.css": "/new-eng-exercises/static/css/main.7648c592.css",
+    "main.js": "/new-eng-exercises/static/js/main.1f6ca0cd.js",
     "static/js/377.b3fe5534.chunk.js": "/new-eng-exercises/static/js/377.b3fe5534.chunk.js",
     "static/media/2TimeChampion.png": "/new-eng-exercises/static/media/2TimeChampion.6260d670f6d8150ca248.png",
     "static/media/3CarGarage.jpg": "/new-eng-exercises/static/media/3CarGarage.a484238cda4fba1dc6a2.jpg",
@@ -11,12 +11,12 @@
     "static/media/3CourseMeal.jpg": "/new-eng-exercises/static/media/3CourseMeal.31242495b25e5022fc74.jpg",
     "static/media/logo.svg": "/new-eng-exercises/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/new-eng-exercises/index.html",
-    "main.080e7ad3.css.map": "/new-eng-exercises/static/css/main.080e7ad3.css.map",
-    "main.576ce3c4.js.map": "/new-eng-exercises/static/js/main.576ce3c4.js.map",
+    "main.7648c592.css.map": "/new-eng-exercises/static/css/main.7648c592.css.map",
+    "main.1f6ca0cd.js.map": "/new-eng-exercises/static/js/main.1f6ca0cd.js.map",
     "377.b3fe5534.chunk.js.map": "/new-eng-exercises/static/js/377.b3fe5534.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.080e7ad3.css",
-    "static/js/main.576ce3c4.js"
+    "static/css/main.7648c592.css",
+    "static/js/main.1f6ca0cd.js"
   ]
 }
