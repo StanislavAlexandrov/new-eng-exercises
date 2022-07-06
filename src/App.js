@@ -16,6 +16,7 @@ import ExerciseDisappearing from './components/exercises/exercise-disappearing.c
 import ExerciseNounPhrases from './components/exercises/exercise-noun-phrases.component';
 import ExerciseArticles from './components/exercises/exercise-articles';
 import ExerciseJumbleSentences from './components/exercises/exercise-jumble-sentences';
+import WalkieTalkie from './components/exercises/exercise-walkie-talkie.component';
 
 function App() {
     return (
@@ -36,6 +37,9 @@ function App() {
                 </Route>
                 <Route path="/nounPhrases">
                     <ExerciseNounPhrases></ExerciseNounPhrases>
+                </Route>
+                <Route path="/walkieTalkie">
+                    <WalkieTalkie />
                 </Route>
                 <Route path="/exerciseArticles">
                     <ExerciseArticles></ExerciseArticles>

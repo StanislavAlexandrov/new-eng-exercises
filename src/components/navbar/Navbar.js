@@ -29,6 +29,9 @@ const Navbar = () => {
                             <Link to="/nounPhrases">Noun Phrases 💬 </Link>
                         </li>
                         <li className="Nav__item">
+                            <Link to="/walkieTalkie">Walkie Talkie 💬 </Link>
+                        </li>
+                        <li className="Nav__item">
                             <Link to="/exerciseArticles">Articles 💬 </Link>
                         </li>
                         <li className="Nav__item">
