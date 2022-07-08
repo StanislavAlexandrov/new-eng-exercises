@@ -19,6 +19,8 @@ const Exercise400Questions = () => {
     const [currentGuess, setCurrentGuess] = useState('');
     const [correctGuess, setCorrectGuess] = useState(false);
 
+    const [finishingValue, setFinishingValue] = useState(false);
+
     useEffect(
         () => setCurrentWord(currentQuestion?.answer),
         [currentStep, numberQuestions, currentQuestion]
@@ -58,6 +60,10 @@ const Exercise400Questions = () => {
             } else {
                 setShowPicker(true);
                 setCurrentStep(0);
+                setFinishingValue(true);
+                setTimeout(() => {
+                    setFinishingValue(false);
+                }, 3000);
             }
         }
     };
@@ -123,6 +129,7 @@ const Exercise400Questions = () => {
                     </div>
                 </div>
             ) : undefined}
+            {showPicker ? finishingValue ? <h1>Well done!</h1> : null : null}
         </div>
     );
 };
