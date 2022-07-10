@@ -19,7 +19,7 @@ const Exercise400Questions = () => {
     const [currentGuess, setCurrentGuess] = useState('');
     const [correctGuess, setCorrectGuess] = useState(false);
 
-    const [finishingValue, setFinishingValue] = useState(false);
+    const [isTestFinished, setIsTestFinised] = useState(false);
 
     useEffect(
         () => setCurrentWord(currentQuestion?.answer),
@@ -60,9 +60,9 @@ const Exercise400Questions = () => {
             } else {
                 setShowPicker(true);
                 setCurrentStep(0);
-                setFinishingValue(true);
+                setIsTestFinised(true);
                 setTimeout(() => {
-                    setFinishingValue(false);
+                    setIsTestFinised(false);
                 }, 3000);
             }
         }
@@ -129,7 +129,8 @@ const Exercise400Questions = () => {
                     </div>
                 </div>
             ) : undefined}
-            {showPicker ? finishingValue ? <h1>Well done!</h1> : null : null}
+            {/* isTestFinished; chain is too bulky in JSX*/}
+            {showPicker && isTestFinished && <h1>Well done!</h1>}
         </div>
     );
 };
