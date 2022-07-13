@@ -39,6 +39,11 @@ const Navbar = () => {
                                 Jumble Sentences 💬{' '}
                             </Link>
                         </li>
+                        <li className="Nav__item">
+                            <Link to="/exerciseLetterByLetter">
+                                Letter By Letter 💬{' '}
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
