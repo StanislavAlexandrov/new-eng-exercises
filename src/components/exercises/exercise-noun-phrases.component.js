@@ -4,6 +4,15 @@ import './exercise-noun-phrases.scss';
 import { useState } from 'react';
 let counter = 1;
 
+//list of images somewhere is the best solution
+//update the list in json
+//fs function in node.js before you start your app
+//import images.data.json
+//it's a list of urls
+
+//TODO: for next use fs function - look into this
+//initial props function in next
+
 function importAll(r) {
     let images = {};
     r.keys().map((item, index) => {
